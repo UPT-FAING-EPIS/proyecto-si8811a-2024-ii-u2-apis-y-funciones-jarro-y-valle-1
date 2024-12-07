@@ -7,6 +7,11 @@
     <RootNamespace>proyecto_si8811a_2024_ii_u1_apis_y_funciones_jarro_y_valle</RootNamespace>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Eventos-JV</PackageId>
+	<IsPackable>true</IsPackable>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,6 +19,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.2" />
     <PackageReference Include="MongoDB.Driver" Version="2.28.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+	<None Include="docs\README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>

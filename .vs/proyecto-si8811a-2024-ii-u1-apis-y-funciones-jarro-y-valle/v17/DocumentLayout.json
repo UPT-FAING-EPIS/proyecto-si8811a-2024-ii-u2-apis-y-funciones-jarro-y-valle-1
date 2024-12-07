@@ -1,0 +1,175 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LEGION\\Downloads\\Topicos Diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9320553-27BC-4011-9592-316958C9D98E}|proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj|c:\\users\\legion\\downloads\\topicos diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9320553-27BC-4011-9592-316958C9D98E}|proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9320553-27BC-4011-9592-316958C9D98E}|proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj|c:\\users\\legion\\downloads\\topicos diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9320553-27BC-4011-9592-316958C9D98E}|proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj|solutionrelative:controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9320553-27BC-4011-9592-316958C9D98E}|proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj|c:\\users\\legion\\downloads\\topicos diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F9320553-27BC-4011-9592-316958C9D98E}|proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9320553-27BC-4011-9592-316958C9D98E}|proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj|c:\\users\\legion\\downloads\\topicos diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\settings\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9320553-27BC-4011-9592-316958C9D98E}|proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj|solutionrelative:settings\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9320553-27BC-4011-9592-316958C9D98E}|proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj|c:\\users\\legion\\downloads\\topicos diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\services\\eventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9320553-27BC-4011-9592-316958C9D98E}|proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj|solutionrelative:services\\eventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9320553-27BC-4011-9592-316958C9D98E}|proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj|c:\\users\\legion\\downloads\\topicos diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9320553-27BC-4011-9592-316958C9D98E}|proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj|solutionrelative:models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9320553-27BC-4011-9592-316958C9D98E}|proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj|c:\\users\\legion\\downloads\\topicos diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\models\\evconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9320553-27BC-4011-9592-316958C9D98E}|proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj|solutionrelative:models\\evconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9320553-27BC-4011-9592-316958C9D98E}|proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj|c:\\users\\legion\\downloads\\topicos diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F9320553-27BC-4011-9592-316958C9D98E}|proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj|solutionrelative:proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventoController.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Topicos Diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\Controllers\\EventoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventoController.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Topicos Diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\Controllers\\EventoController.cs",
+              "RelativeToolTip": "Controllers\\EventoController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAcwD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T00:12:16.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MongoDBSettings.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Topicos Diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\Settings\\MongoDBSettings.cs",
+              "RelativeDocumentMoniker": "Settings\\MongoDBSettings.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Topicos Diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\Settings\\MongoDBSettings.cs",
+              "RelativeToolTip": "Settings\\MongoDBSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T00:11:43.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventoService.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Topicos Diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\Services\\EventoService.cs",
+              "RelativeDocumentMoniker": "Services\\EventoService.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Topicos Diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\Services\\EventoService.cs",
+              "RelativeToolTip": "Services\\EventoService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAcwB4AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T00:11:32.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Topicos Diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Topicos Diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-07T00:11:21.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Topicos Diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\Models\\Evento.cs",
+              "RelativeDocumentMoniker": "Models\\Evento.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Topicos Diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\Models\\Evento.cs",
+              "RelativeToolTip": "Models\\Evento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T00:11:09.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Topicos Diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj",
+              "RelativeDocumentMoniker": "proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Topicos Diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj",
+              "RelativeToolTip": "proyecto-si8811a-2024-ii-u1-apis-y-funciones-jarro-y-valle.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-06T22:43:30.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Topicos Diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Topicos Diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAqwCAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T18:41:04.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EVConnection.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\Downloads\\Topicos Diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\Models\\EVConnection.cs",
+              "RelativeDocumentMoniker": "Models\\EVConnection.cs",
+              "ToolTip": "C:\\Users\\LEGION\\Downloads\\Topicos Diciembre\\proyecto-si8811a-2024-ii-u2-apis-y-funciones-jarro-y-valle-1\\Models\\EVConnection.cs",
+              "RelativeToolTip": "Models\\EVConnection.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T18:32:41.723Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
