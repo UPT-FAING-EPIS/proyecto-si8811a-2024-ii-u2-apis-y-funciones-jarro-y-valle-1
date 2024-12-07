@@ -1,15 +1,15 @@
 1.0
 
-## Paquete Eventos-JV
+# Paquete Eventos-JV
 El paquete Eventos-JV permite la integración de funcionalidades específicas para gestionar eventos en una aplicación basada en .NET 6.0. Sigue estos pasos para instalar y configurar correctamente el paquete.
 
-# Instalación del Paquete
+## Instalación del Paquete
 Para instalar el paquete globalmente en tu sistema, utiliza el siguiente comando:
 ```bash
 dotnet tool install --global Eventos-JV --version 1.0.0
 ```
 
-# Configuración del Proyecto para Utilizar el Paquete
+## Configuración del Proyecto para Utilizar el Paquete
 
 Asegúrate de que el sistema tenga configurada la variable de entorno VJ_CONNECTION_STRING con la cadena de conexión a MongoDB. Esta cadena debe incluir tus credenciales y configuraciones de acceso al clúster de MongoDB.
 
