@@ -1,4 +1,109 @@
 1.0
+
+## Paquete Eventos-JV
+El paquete Eventos-JV permite la integración de funcionalidades específicas para gestionar eventos en una aplicación basada en .NET 6.0. Sigue estos pasos para instalar y configurar correctamente el paquete.
+
+# Instalación del Paquete
+Para instalar el paquete globalmente en tu sistema, utiliza el siguiente comando:
+```bash
+dotnet tool install --global Eventos-JV --version 1.0.0
+```
+
+# Configuración del Proyecto para Utilizar el Paquete
+
+Asegúrate de que el sistema tenga configurada la variable de entorno VJ_CONNECTION_STRING con la cadena de conexión a MongoDB. Esta cadena debe incluir tus credenciales y configuraciones de acceso al clúster de MongoDB.
+
+Ejemplo de comando para agregar la variable en sistemas operativos:
+
+Windows:
+```bash
+setx VJ_CONNECTION_STRING "mongodb+srv://gv2020066916:9wtoLLgWsm26Tlhf@cluster0.avfarjq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+```
+
+Linux/MacOS:
+```bash
+export VJ_CONNECTION_STRING="mongodb+srv://gv2020066916:9wtoLLgWsm26Tlhf@cluster0.avfarjq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+```
+
+
+Configuración del archivo appsettings.json
+Asegúrate de incluir la configuración de MongoDB en tu archivo appsettings.json:
+
+```bash
+{
+  "MongoDB": {
+    "ConnectionString": "mongodb://localhost:27017",
+    "DatabaseName": "juegos_florales"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+
+```
+
+Configuración del Proyecto
+Añade las siguientes configuraciones en el archivo Program.cs de tu proyecto para habilitar el uso del paquete Eventos-JV:
+
+```bash
+using proyecto_si8811a_2024_ii_u1_apis_y_funciones_jarro_y_valle.Models;
+using proyecto_si8811a_2024_ii_u1_apis_y_funciones_jarro_y_valle.Services;
+using proyecto_si8811a_2024_ii_u1_apis_y_funciones_jarro_y_valle.Settings;
+using Microsoft.Extensions.Options;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Configurar MongoDB
+builder.Services.Configure<MongoDBSettings>(
+    builder.Configuration.GetSection("MongoDB")); // Leer configuraciones desde appsettings.json
+builder.Services.AddSingleton<EVConnection>();
+
+// Registrar servicios específicos
+builder.Services.AddSingleton<EventoService>();
+
+// Configurar controladores y Swagger
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+// Configurar CORS (si es necesario)
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        policy =>
+        {
+            policy.AllowAnyOrigin()
+                  .AllowAnyMethod()
+                  .AllowAnyHeader();
+        });
+});
+
+var app = builder.Build();
+
+// Configurar middleware de Swagger
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+// Aplicar CORS
+app.UseCors("AllowAllOrigins");
+
+// Configurar middleware de autorización
+app.UseAuthorization();
+
+// Mapear controladores
+app.MapControllers();
+
+app.Run();
+
+```
+
 ## Imagen de la aplicacion
 La aplicacion puede encontrarse en Docker Hub con el nombre de gus322/vj_evento. Pero para ejecutarse requiere obtener la linea de conexion que trabaje con la misma base de datos en MongoDB que cumpla con el modelo trabajado en el proyecto. Por ejemplo: 
 ```bash
